@@ -5,7 +5,7 @@ import random
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 my_email = "moo232519@gmail.com"
-password = "bijn qglr jawc hrot"
+password = "PASSWORD"
 
 now = dt.datetime.now()
 weekday = now.weekday
@@ -36,22 +36,3 @@ if weekday == 1:
 
 
 
-# with smtplib.SMTP("smtp.gmail.com") as connection:
-#     connection.starttls()
-#     connection.login(user=my_email, password=password)
-#     connection.sendmail(
-#         from_addr=my_email, 
-#         to_addrs="moomoothemoo22@gmail.com", 
-#         msg="Subject:Hello!\n\nThis is the content"
-#     )
-
-# import datetime as dt
-
-# now = dt.datetime.now()
-# year = now.year
-# month = now.month
-# day = now.day
-# day_of_week = now.weekday()
-
-# data_of_birth = dt.datetime(year=2000, month=12, day=15, hour=4)
-# print(data_of_birth)
