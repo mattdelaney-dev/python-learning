@@ -19,7 +19,7 @@ paramaters = {
 response = requests.get(url=OWM_Endpoint, params=paramaters)
 response.raise_for_status()
 
-will_rain = False
+will_rain = False 
 
 weather_data = response.json()
 for day in weather_data["list"]:
