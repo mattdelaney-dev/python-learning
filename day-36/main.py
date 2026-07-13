@@ -75,8 +75,8 @@ if abs(stock_diff_percent) > 5:
         message = client.messages \
             .create(
                     body=article,
-                    from_="+16592177767",
-                    to="+61459352668"
+                    from_="+",
+                    to="+"
                 )
 
 
